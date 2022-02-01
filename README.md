@@ -2,6 +2,7 @@
 Description of Linear Regression
 
 LINEAR REGRESSION
+
 What is a Regression
 
 In Regression, we plot a graph between the variables which best fit the given data points. The machine learning model can deliver predictions regarding the data. In naïve words, “Regression shows a line or curve that passes through all the data points on a target-predictor graph in such a way that the vertical distance between the data points and the regression line is minimum.” It is used principally for prediction, forecasting, time series modeling, and determining the causal-effect relationship between variables.
@@ -14,14 +15,20 @@ Regression is a supervised learning technique that supports finding the correlat
  In this article, we will understand the following concepts:
 
 What is a Regression?
+
 Types of a Regression.
+
 What is the mean of Linear regression and the importance of Linear regression?
+
 Importance of cost function and gradient descent in a Linear regression.
+
 Impact of different values for learning rate.
+
 Implement use case of Linear regression with python code.
  
 
-What is a Regression
+#What is a Regression
+
 In Regression, we plot a graph between the variables which best fit the given data points. The machine learning model can deliver predictions regarding the data. In naïve words, “Regression shows a line or curve that passes through all the data points on a target-predictor graph in such a way that the vertical distance between the data points and the regression line is minimum.” It is used principally for prediction, forecasting, time series modeling, and determining the causal-effect relationship between variables.
 
  
