@@ -35,9 +35,9 @@ In Regression, we plot a graph between the variables which best fit the given da
 
 # Types of Regression models
 
- Linear Regression
- Polynomial Regression
- Logistics Regression
+ * Linear Regression
+ * Polynomial Regression
+ * Logistics Regression
  
 
 # Linear Regression
