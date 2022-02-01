@@ -117,8 +117,13 @@ The blue line represents the optimal value of the learning rate, and the cost fu
 The main function to calculate values of coefficients
 
 1 Initialize the parameters.
+
 2 Predict the value of a dependent variable by given an independent variable.
+
 3 Calculate the error in prediction for all data points.
+
 4 Calculate partial derivative w.r.t a0 and a1.
+
 5 Calculate the cost for each number and add them.
+
 6 Update the values of a0 and a1.
