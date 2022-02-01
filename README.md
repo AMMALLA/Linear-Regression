@@ -15,40 +15,40 @@ Regression is a supervised learning technique that supports finding the correlat
 
  In this article, we will understand the following concepts:
 
-# What is a Regression?
+## What is a Regression?
 
-# Types of a Regression.
+## Types of a Regression.
 
-# What is the mean of Linear regression and the importance of Linear regression?
+## What is the mean of Linear regression and the importance of Linear regression?
 
-# Importance of cost function and gradient descent in a Linear regression.
+## Importance of cost function and gradient descent in a Linear regression.
 
-# Impact of different values for learning rate.
+### Impact of different values for learning rate.
 
-# Implement use case of Linear regression with python code.
+## Implement use case of Linear regression with python code.
  
 
-# What is a Regression
+## What is a Regression
 
 In Regression, we plot a graph between the variables which best fit the given data points. The machine learning model can deliver predictions regarding the data. In naïve words, “Regression shows a line or curve that passes through all the data points on a target-predictor graph in such a way that the vertical distance between the data points and the regression line is minimum.” It is used principally for prediction, forecasting, time series modeling, and determining the causal-effect relationship between variables.
 
  
 
-# Types of Regression models
+## Types of Regression models
 
  * Linear Regression
  * Polynomial Regression
  * Logistics Regression
  
 
-# Linear Regression
+## Linear Regression
 Linear regression is a quiet and simple statistical regression method used for predictive analysis and shows the relationship between the continuous variables. Linear regression shows the linear relationship between the independent variable (X-axis) and the dependent variable (Y-axis), consequently called linear regression. If there is a single input variable (x), such linear regression is called simple linear regression. And if there is more than one input variable, such linear regression is called multiple linear regression. The linear regression model gives a sloped straight line describing the relationship within the variables.
 
 Linear Regression 1
 The above graph presents the linear relationship between the dependent variable and independent variables. When the value of x (independent variable) increases, the value of y (dependent variable) is likewise increasing. The red line is referred to as the best fit straight line. Based on the given data points, we try to plot a line that models the points the best.
 To calculate best-fit line linear regression uses a traditional slope-intercept form.
 
-# Linear Regression equation
+## Linear Regression equation
 
 y= Dependent Variable.
 
@@ -68,16 +68,16 @@ A regression line can be a Positive Linear Relationship or a Negative Linear Rel
 
  
 
-# Positive Linear Relationship
+### Positive Linear Relationship
 
 If the dependent variable expands on the Y-axis and the independent variable progress on X-axis, then such a relationship is termed a Positive linear relationship.
 
-Linear Regression positive
-Negative Linear Relationship
+* Linear Regression positive
+* Negative Linear Relationship
 
 If the dependent variable decreases on the Y-axis and the independent variable increases on the X-axis, such a relationship is called a negative linear relationship.
 
-# Linear Regression negative
+### Linear Regression negative
 The goal of the linear regression algorithm is to get the best values for a0 and a1 to find the best fit line. The best fit line should have the least error means the error between predicted values and actual values should be minimized.
 
 # Cost function
