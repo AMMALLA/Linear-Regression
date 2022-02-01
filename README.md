@@ -15,17 +15,17 @@ Regression is a supervised learning technique that supports finding the correlat
 
  In this article, we will understand the following concepts:
 
-### What is a Regression?
+##### What is a Regression?
 
-### Types of a Regression.
+###### Types of a Regression.
 
-### What is the mean of Linear regression and the importance of Linear regression?
+##### What is the mean of Linear regression and the importance of Linear regression?
 
-### Importance of cost function and gradient descent in a Linear regression.
+##### Importance of cost function and gradient descent in a Linear regression.
 
-### Impact of different values for learning rate.
+##### Impact of different values for learning rate.
 
- ### Implement use case of Linear regression with python code.
+ ##### Implement use case of Linear regression with python code.
  
 
 ## What is a Regression
