@@ -3,11 +3,6 @@ Description of Linear Regression
 
 
 
-What is a Regression
-
-In Regression, we plot a graph between the variables which best fit the given data points. The machine learning model can deliver predictions regarding the data. In naïve words, “Regression shows a line or curve that passes through all the data points on a target-predictor graph in such a way that the vertical distance between the data points and the regression line is minimum.” It is used principally for prediction, forecasting, time series modeling, and determining the causal-effect relationship between variables.
-
-
 
 ## Introduction
 
@@ -110,7 +105,6 @@ The partial derivates are the gradients, and they are used to update the values 
 
 Impact of different values for learning rate
 Impact of different values for learning rate
-Source : mygreatleaning.com
 
 The blue line represents the optimal value of the learning rate, and the cost function value is minimized in a few iterations. The green line represents if the learning rate is lower than the optimal value, then the number of iterations required high to minimize the cost function. If the learning rate selected is very high, the cost function could continue to increase with iterations and saturate at a value higher than the minimum value, that represented by a red and black line.
 
