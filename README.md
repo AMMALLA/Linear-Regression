@@ -296,15 +296,15 @@ This means that for every one unit of change in hours studied, the change in the
 
 Now that we have trained our algorithm, it's time to make some predictions. To do so, we will use our test data and see how accurately our algorithm predicts the percentage score. To make pre-dictions on the test data, execute the following script:
 
-y_pred = regressor.predict(X_test)
+##### y_pred = regressor.predict(X_test)
 
 
 The y_pred is a numpy array that contains all the predicted values for the input values in the X_test series.
 
 To compare the actual output values for X_test with the predicted values, execute the following script:
 
-df = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
-df
+#### df = pd.DataFrame({'Actual': y_test, 'Predicted': y_pred})
+#### df
 
 The output looks like this:
 
@@ -342,10 +342,10 @@ Luckily, we don't have to perform these calculations manually. The Scikit-Learn 
 
 Let's find the values for these metrics using our test data. Execute the following code:
 
-from sklearn import metrics
-print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, y_pred))
-print('Mean Squared Error:', metrics.mean_squared_error(y_test, y_pred))
-print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
+#### from sklearn import metrics
+#### print('Mean Absolute Error:', metrics.mean_absolute_error(y_test, y_pred))
+#### print('Mean Squared Error:', metrics.mean_squared_error(y_test, y_pred))
+#### print('Root Mean Squared Error:', np.sqrt(metrics.mean_squared_error(y_test, y_pred)))
 
 The output will look similar to this (but probably slightly different):
 
