@@ -243,6 +243,9 @@ From the graph above, we can clearly see that there is a positive linear relatio
 ### Preparing the Data
 
 
+##
+
+
 
 Now we have an idea about statistical details of our data. The next step is to divide the data into "attributes" and "labels". Attributes are the independent variables while labels are dependent variables whose values are to be predicted. In our dataset we only have two columns. We want to predict the percentage score depending upon the hours studied. Therefore our attribute set will consist of the "Hours" column, and the label will be the "Score" column. To extract the attributes and labels, execute the following script:
 
@@ -279,6 +282,7 @@ In the theory section we said that linear regression model basically finds the b
 To retrieve the intercept:
 
 ##### print(regressor.intercept_)
+
 The resulting value you see should be approximately 2.01816004143.
 
 For retrieving the slope (coefficient of x):
