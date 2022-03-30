@@ -171,10 +171,12 @@ Here I want to show how the normal equation is derived.
 First, some terminology. The following symbols are compatible with the machine learning course, not with the exposition of the normal equation on Wikipedia and other sites - semantically it's all the same, just the symbols are different.
 
 Given the hypothesis function: 
-                              ![image](https://user-images.githubusercontent.com/4158204/160902439-61f9a3c3-f1ff-4c81-865b-6403d6596d72.png)
+                             
+                             ![image](https://user-images.githubusercontent.com/4158204/160902439-61f9a3c3-f1ff-4c81-865b-6403d6596d72.png)
 
 
 We'd like to minimize the least-squares cost:
+                                
                                 ![image](https://user-images.githubusercontent.com/4158204/160902600-9224a326-1831-4bdb-8471-b1fea7b30fee.png)
 
 
