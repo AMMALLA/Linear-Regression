@@ -179,6 +179,46 @@ We'd like to minimize the least-squares cost:
 
 ![image](https://user-images.githubusercontent.com/4158204/160902600-9224a326-1831-4bdb-8471-b1fea7b30fee.png)
 
+Where x^{(i)} is the i-th sample (from a set of m samples) and y^{(i)} is the i-th expected result.
+
+To proceed, we'll represent the problem in matrix notation; this is natural, since we essentially have a system of linear equations here. The regression coefficients \theta we're looking for are the vector:
+
+![image](https://user-images.githubusercontent.com/4158204/160904500-033db910-c256-43d4-ab9e-ed8ddce5a032.png)
+
+Each of the m input samples is similarly a column vector with n+1 rows, x_0 being 1 for convenience. So we can now rewrite the hypothesis function as:
+
+![image](https://user-images.githubusercontent.com/4158204/160904676-aacdce8e-fefe-457e-a9ae-e2fa779cc145.png)
+
+When this is summed over all samples, we can dip further into matrix notation. We'll define the "design matrix" X (uppercase X) as a matrix of m rows, in which each row is the i-th sample (the vector x^{(i)}). With this, we can rewrite the least-squares cost as following, replacing the explicit sum by matrix multiplication:
+
+![image](https://user-images.githubusercontent.com/4158204/160904874-13d96f8f-6a7a-4a37-9677-5ebd5ce8d195.png)
+
+
+Now, using some matrix transpose identities, we can simplify this a bit. I'll throw the \frac{1}{2m} part away since we're going to compare a derivative to zero anyway:
+
+![image](https://user-images.githubusercontent.com/4158204/160905636-b089946b-17f6-4325-b9eb-4dfa14e35f3e.png)
+
+Note that X\theta is a vector, and so is y. So when we multiply one by another, it doesn't matter what the order is (as long as the dimensions work out). So we can further simplify:
+
+![image](https://user-images.githubusercontent.com/4158204/160905894-50777c95-6fc3-4f46-b5e7-9d8f9c9865a0.png)
+
+Recall that here \theta is our unknown. To find where the above function has a minimum, we will derive by \theta and compare to 0. Deriving by a vector may feel uncomfortable, but there's nothing to worry about. Recall that here we only use matrix notation to conveniently represent a system of linear formulae. So we derive by each component of the vector, and then combine the resulting derivatives into a vector again. The result is:
+
+![image](https://user-images.githubusercontent.com/4158204/160906535-050552b2-03b8-42ac-87ba-6d2c6eb8374f.png)
+ 
+ or:
+ 
+![image](https://user-images.githubusercontent.com/4158204/160906680-bd5bd65e-8fa8-4bd0-b59f-52d2c2a90f8b.png)
+
+Now, assuming that the matrix X^TX is invertible, we can multiply both sides by (X^TX)^{-1} and get:
+ 
+![image](https://user-images.githubusercontent.com/4158204/160907025-7ef5d0b1-b025-423d-808e-d1f5abe25a1b.png)
+
+Which is the normal equation.
+
+
+
+
 
 ##
 
