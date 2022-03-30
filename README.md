@@ -313,7 +313,7 @@ To compare the actual output values for X_test with the predicted values, execut
 
 The output looks like this:
 
-#### FIGURE
+![fig4](https://user-images.githubusercontent.com/4158204/160875941-06706f4a-55e5-4b1e-834d-07a0fecda859.JPG)
 
 Though our model is not very precise, the predicted percentages are close to the actual ones.
 
@@ -331,17 +331,19 @@ The values in the columns above may be different in your case because the train_
 
 The final step is to evaluate the performance of algorithm. This step is particularly important to compare how well different algorithms perform on a particular dataset. For regression algorithms, three evaluation metrics are commonly used:
 
-Mean Absolute Error (MAE) is the mean of the absolute value of the errors. It is calculated as:
+* Mean Absolute Error (MAE) is the mean of the absolute value of the errors. It is calculated as:
 
 
 ![image](https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-3.png)
 
-Mean Squared Error (MSE) is the mean of the squared errors and is calculated as:
+
+
+* Mean Squared Error (MSE) is the mean of the squared errors and is calculated as:
 
 ![image](https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-4.png)
 
 
-Root Mean Squared Error (RMSE) is the square root of the mean of the squared errors:
+* Root Mean Squared Error (RMSE) is the square root of the mean of the squared errors:
 
 ![image](https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-5.png)
 
