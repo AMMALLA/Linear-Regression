@@ -48,7 +48,8 @@ To calculate best-fit line linear regression uses a traditional slope-intercept 
 
 #### Linear Regression equation
 
- ![image](https://editor.analyticsvidhya.com/uploads/32826linear1.png)
+![image](https://editor.analyticsvidhya.com/uploads/32826linear1.png)
+ 
 y= Dependent Variable.
 
 x= Independent Variable.
