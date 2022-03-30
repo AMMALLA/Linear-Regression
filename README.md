@@ -334,16 +334,16 @@ The final step is to evaluate the performance of algorithm. This step is particu
 Mean Absolute Error (MAE) is the mean of the absolute value of the errors. It is calculated as:
 
 
-https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-3.png
+![image](https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-3.png)
 
 Mean Squared Error (MSE) is the mean of the squared errors and is calculated as:
 
-https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-4.png
+![image](https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-4.png)
 
 
 Root Mean Squared Error (RMSE) is the square root of the mean of the squared errors:
 
-https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-5.png
+![image](https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-5.png)
 
 Luckily, we don't have to perform these calculations manually. The Scikit-Learn library comes with pre-built functions that can be used to find out these values for us.
 
