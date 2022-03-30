@@ -39,9 +39,14 @@ In Regression, we plot a graph between the variables which best fit the given da
 ### Linear Regression
 Linear regression is a quiet and simple statistical regression method used for predictive analysis and shows the relationship between the continuous variables. Linear regression shows the linear relationship between the independent variable (X-axis) and the dependent variable (Y-axis), consequently called linear regression. If there is a single input variable (x), such linear regression is called simple linear regression. And if there is more than one input variable, such linear regression is called multiple linear regression. The linear regression model gives a sloped straight line describing the relationship within the variables.
 
+![image](https://editor.analyticsvidhya.com/uploads/72060linear.png)
+
+
 Linear Regression 1
 The above graph presents the linear relationship between the dependent variable and independent variables. When the value of x (independent variable) increases, the value of y (dependent variable) is likewise increasing. The red line is referred to as the best fit straight line. Based on the given data points, we try to plot a line that models the points the best.
 To calculate best-fit line linear regression uses a traditional slope-intercept form.
+
+![image](https://editor.analyticsvidhya.com/uploads/32826linear1.png)
 
 #### Linear Regression equation
 
