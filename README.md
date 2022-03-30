@@ -112,6 +112,9 @@ Imagine a pit in the shape of U. You are standing at the topmost point in the pi
 ### Learning Rate
 To update a0 and a1, we take gradients from the cost function. To find these gradients, we take partial derivatives for a0 and a1.
 
+![image](https://editor.analyticsvidhya.com/uploads/43974final_dev1.png)
+![image](https://editor.analyticsvidhya.com/uploads/18613final_dev3.png)
+
 Partial derivatives Linear Regression
 linear regression cost function 2
 linear regression cost function 3
