@@ -123,8 +123,11 @@ To update a0 and a1, we take gradients from the cost function. To find these gra
 ![image](https://editor.analyticsvidhya.com/uploads/18613final_dev3.png)
 
 Partial derivatives Linear Regression
+
 linear regression cost function 2
+
 linear regression cost function 3
+
 The partial derivates are the gradients, and they are used to update the values of a0 and a1. Alpha is the learning rate.
 
 Impact of different values for learning rate
@@ -239,7 +242,11 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 The above script splits 80% of the data to training set while 20% of the data to test set. The test_size variable is where we actually specify the proportion of test set.
 
+
+
+
 ### Training the Algorithm
+
 
 
 
