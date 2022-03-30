@@ -20,6 +20,8 @@ Regression is a supervised learning technique that supports finding the correlat
 
 ##### Impact of different values for learning rate.
 
+##### Normal Equation as an analytical solution to the linear regression problem
+
  ##### Implement use case of Linear regression with python code.
  
 
@@ -162,7 +164,18 @@ The main function to calculate values of coefficients
 6 Update the values of a0 and a1.
 
 
+Andrew Ng presented the Normal Equation as an analytical solution to the linear regression problem with a least-squares cost function. He mentioned that in some cases (such as for small feature sets) using it is more effective than applying gradient descent; unfortunately, he left its derivation out.
 
+Here I want to show how the normal equation is derived.
+
+First, some terminology. The following symbols are compatible with the machine learning course, not with the exposition of the normal equation on Wikipedia and other sites - semantically it's all the same, just the symbols are different.
+
+Given the hypothesis function: 
+                              ![image](https://user-images.githubusercontent.com/4158204/160902439-61f9a3c3-f1ff-4c81-865b-6403d6596d72.png)
+
+
+We'd like to minimize the least-squares cost:
+                                ![image](https://user-images.githubusercontent.com/4158204/160902600-9224a326-1831-4bdb-8471-b1fea7b30fee.png)
 
 
 ##
