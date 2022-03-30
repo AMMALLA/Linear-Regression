@@ -85,6 +85,8 @@ If the dependent variable decreases on the Y-axis and the independent variable i
 The goal of the linear regression algorithm is to get the best values for a0 and a1 to find the best fit line. The best fit line should have the least error means the error between predicted values and actual values should be minimized.
 
 ### Cost function
+
+
 The cost function helps to figure out the best possible values for a0 and a1, which provides the best fit line for the data points.
 
 Cost function optimizes the regression coefficients or weights and measures how a linear regression model is performing. The cost function is used to find the accuracy of the mapping function that maps the input variable to the output variable. This mapping function is also known as the Hypothesis function.
@@ -101,6 +103,8 @@ Let’s y = actual values, yi = predicted values
 Using the MSE function, we will change the values of a0 and a1 such that the MSE value settles at the minima. Model parameters xi, b (a0,a1) can be manipulated to minimize the cost function. These parameters can be determined using the gradient descent method so that the cost function value is minimum.
 
 ### Gradient descent 
+
+
 Gradient descent is a method of updating a0 and a1 to minimize the cost function (MSE). A regression model uses gradient descent to update the coefficients of the line (a0, a1 => xi, b) by reducing the cost function by a random selection of coefficient values and then iteratively update the values to reach the minimum cost function.
 
 ![image](https://editor.analyticsvidhya.com/uploads/68835linear4.png)
@@ -144,7 +148,10 @@ The main function to calculate values of coefficients
 
 6 Update the values of a0 and a1.
 
+
 ### Implementation of Linear Regression Using Python code
+
+
 
 In this regression task we will predict the percentage of marks that a student is expected to score based upon the number of hours they studied. This is a simple linear regression task as it involves just two variables.
 
@@ -152,12 +159,13 @@ In this regression task we will predict the percentage of marks that a student i
 To import necessary libraries for this task, execute the following import statements:
 
 
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-%matplotlib inline
+##### import pandas as pd
+##### import numpy as np
+##### import matplotlib.pyplot as plt
+##### %matplotlib inline
 
 #### Dataset
+
 The dataset being used for this example has been made publicly available and can be downloaded from this link:
 
 https://drive.google.com/open?id=1oakZCv7g3mlmCSdv9J8kdSaqO5_6dIOw
@@ -166,21 +174,21 @@ Note: This example was executed on a Windows based machine and the dataset was s
 
 The following command imports the CSV dataset using pandas:
 
-dataset = pd.read_csv('D:\Datasets\student_scores.csv')
+##### dataset = pd.read_csv('D:\Datasets\student_scores.csv')
 
 
 Now let's explore our dataset a bit. To do so, execute the following script:
 
-dataset.shape
+##### dataset.shape
 
 
 After doing this, you should see the following printed out:
 
-(25, 2)
+##### (25, 2)
 
 This means that our dataset has 25 rows and 2 columns. Let's take a look at what our dataset actually looks like. To do this, use the head() method:
 
-dataset.head()
+##### dataset.head()
 
 
 The above method retrieves the first 5 records from our dataset, which will look like this:
@@ -188,17 +196,17 @@ The above method retrieves the first 5 records from our dataset, which will look
 ## FIGURE
 
 
-dataset.describe()
+##### dataset.describe()
 
 ## FIGURE
 
 And finally, let's plot our data points on 2-D graph to eyeball our dataset and see if we can manually find any relationship between the data. We can create the plot with the following script:
 
-dataset.plot(x='Hours', y='Scores', style='o')
-plt.title('Hours vs Percentage')
-plt.xlabel('Hours Studied')
-plt.ylabel('Percentage Score')
-plt.show()
+##### dataset.plot(x='Hours', y='Scores', style='o')
+##### plt.title('Hours vs Percentage')
+##### plt.xlabel('Hours Studied')
+##### plt.ylabel('Percentage Score')
+##### plt.show()
 
 In the script above, we use plot() function of the pandas dataframe and pass it the column names for x coordinate and y coordinate, which are "Hours" and "Scores" respectively.
 
