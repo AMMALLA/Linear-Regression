@@ -313,6 +313,7 @@ To compare the actual output values for X_test with the predicted values, execut
 
 The output looks like this:
 
+
 ![fig4](https://user-images.githubusercontent.com/4158204/160875941-06706f4a-55e5-4b1e-834d-07a0fecda859.JPG)
 
 Though our model is not very precise, the predicted percentages are close to the actual ones.
