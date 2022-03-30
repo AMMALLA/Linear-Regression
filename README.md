@@ -213,12 +213,14 @@ This means that our dataset has 25 rows and 2 columns. Let's take a look at what
 
 The above method retrieves the first 5 records from our dataset, which will look like this:
 
-## FIGURE
+![fig1](https://user-images.githubusercontent.com/4158204/160814627-96ab0b1f-28c4-47b6-a9ba-aa8a20dd282f.JPG)
 
 
 ##### dataset.describe()
 
-![fig1](https://user-images.githubusercontent.com/4158204/160814627-96ab0b1f-28c4-47b6-a9ba-aa8a20dd282f.JPG)
+
+![fig2](https://user-images.githubusercontent.com/4158204/160868466-b64b7b63-8d1c-4266-bab6-3c9733a9cf80.JPG)
+
 
 And finally, let's plot our data points on 2-D graph to eyeball our dataset and see if we can manually find any relationship between the data. We can create the plot with the following script:
 
@@ -232,7 +234,7 @@ In the script above, we use plot() function of the pandas dataframe and pass it 
 
 The resulting plot will look like this:
 
-### FIGURE
+![fig3](https://user-images.githubusercontent.com/4158204/160868781-5cad28f4-4101-41b3-a3f7-aeadbe8e16e5.JPG)
 
 From the graph above, we can clearly see that there is a positive linear relation between the number of hours studied and percentage of score.
 
