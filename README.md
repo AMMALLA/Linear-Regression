@@ -100,6 +100,7 @@ By simple linear equation y=mx+b we can calculate MSE as:
 Let’s y = actual values, yi = predicted values
 
 ### Linear Regression MSE
+
 Using the MSE function, we will change the values of a0 and a1 such that the MSE value settles at the minima. Model parameters xi, b (a0,a1) can be manipulated to minimize the cost function. These parameters can be determined using the gradient descent method so that the cost function value is minimum.
 
 
@@ -114,6 +115,7 @@ Gradient descent is a method of updating a0 and a1 to minimize the cost function
 ![image](https://editor.analyticsvidhya.com/uploads/68835linear4.png)
 
 ### Linear Regression gradient Descent
+
 Imagine a pit in the shape of U. You are standing at the topmost point in the pit, and your objective is to reach the bottom of the pit. There is a treasure, and you can only take a discrete number of steps to reach the bottom. If you decide to take one footstep at a time, you would eventually get to the bottom of the pit but, this would take a longer time. If you choose to take longer steps each time, you may get to sooner but, there is a chance that you could overshoot the bottom of the pit and not near the bottom. In the gradient descent algorithm, the number of steps you take is the learning rate, and this decides how fast the algorithm converges to the minima.
 
 ![image](https://editor.analyticsvidhya.com/uploads/97695learn.png)
@@ -163,6 +165,8 @@ The main function to calculate values of coefficients
 
 
 
+
+##
 
 
 ## Implementation of Linear Regression Using Python code
@@ -241,16 +245,14 @@ From the graph above, we can clearly see that there is a positive linear relatio
 
 Now we have an idea about statistical details of our data. The next step is to divide the data into "attributes" and "labels". Attributes are the independent variables while labels are dependent variables whose values are to be predicted. In our dataset we only have two columns. We want to predict the percentage score depending upon the hours studied. Therefore our attribute set will consist of the "Hours" column, and the label will be the "Score" column. To extract the attributes and labels, execute the following script:
 
-X = dataset.iloc[:, :-1].values
-
-y = dataset.iloc[:, 1].values
+#### X = dataset.iloc[:, :-1].values
+#### y = dataset.iloc[:, 1].values
 
 The attributes are stored in the X variable. We specified "-1" as the range for columns since we wanted our attribute set to contain all the columns except the last one, which is "Scores". Similarly the y variable contains the labels. We specified 1 for the label column since the index for "Scores" column is 1. Remember, the column indexes start with 0, with 1 being the second column. In the next section, we will see a better way to specify columns for attributes and labels.
 
 Now that we have our attributes and labels, the next step is to split this data into training and test sets. We'll do this by using Scikit-Learn's built-in train_test_split() method:
 
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
+#### from sklearn.model_selection import train_test_split X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=0)
 
 
 The above script splits 80% of the data to training set while 20% of the data to test set. The test_size variable is where we actually specify the proportion of test set.
@@ -258,16 +260,16 @@ The above script splits 80% of the data to training set while 20% of the data to
 
 
 
-### Training the Algorithm
+## Training the Algorithm
 
 
 
 
 We have split our data into training and testing sets, and now is finally the time to train our algorithm. Execute following command:
 
-from sklearn.linear_model import LinearRegression
-regressor = LinearRegression()
-regressor.fit(X_train, y_train)
+#### from sklearn.linear_model import LinearRegression
+#### regressor = LinearRegression()
+#### regressor.fit(X_train, y_train)
 
 With Scikit-Learn it is extremely straight forward to implement linear regression models, as all you really need to do is import the LinearRegression class, instantiate it, and call the fit() method along with our training data. This is about as simple as it gets when using a machine learning library to train on your data.
 
@@ -275,12 +277,12 @@ In the theory section we said that linear regression model basically finds the b
 
 To retrieve the intercept:
 
-print(regressor.intercept_)
+##### print(regressor.intercept_)
 The resulting value you see should be approximately 2.01816004143.
 
 For retrieving the slope (coefficient of x):
 
-print(regressor.coef_)
+##### print(regressor.coef_)
 
 The result should be approximately 9.91065648.
 
