@@ -144,11 +144,11 @@ The main function to calculate values of coefficients
 
 6 Update the values of a0 and a1.
 
-###Implementation of Linear Regression Using Python code
+### Implementation of Linear Regression Using Python code
 
 In this regression task we will predict the percentage of marks that a student is expected to score based upon the number of hours they studied. This is a simple linear regression task as it involves just two variables.
 
-####Importing Libraries
+#### Importing Libraries
 To import necessary libraries for this task, execute the following import statements:
 
 
@@ -157,7 +157,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 %matplotlib inline
 
-####Dataset
+#### Dataset
 The dataset being used for this example has been made publicly available and can be downloaded from this link:
 
 https://drive.google.com/open?id=1oakZCv7g3mlmCSdv9J8kdSaqO5_6dIOw
@@ -185,12 +185,12 @@ dataset.head()
 
 The above method retrieves the first 5 records from our dataset, which will look like this:
 
-##FIGURE
+## FIGURE
 
 
 dataset.describe()
 
-##FIGURE
+## FIGURE
 
 And finally, let's plot our data points on 2-D graph to eyeball our dataset and see if we can manually find any relationship between the data. We can create the plot with the following script:
 
@@ -208,7 +208,7 @@ The resulting plot will look like this:
 
 From the graph above, we can clearly see that there is a positive linear relation between the number of hours studied and percentage of score.
 
-####Preparing the Data
+#### Preparing the Data
 Now we have an idea about statistical details of our data. The next step is to divide the data into "attributes" and "labels". Attributes are the independent variables while labels are dependent variables whose values are to be predicted. In our dataset we only have two columns. We want to predict the percentage score depending upon the hours studied. Therefore our attribute set will consist of the "Hours" column, and the label will be the "Score" column. To extract the attributes and labels, execute the following script:
 
 X = dataset.iloc[:, :-1].values
@@ -224,12 +224,13 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 
 The above script splits 80% of the data to training set while 20% of the data to test set. The test_size variable is where we actually specify the proportion of test set.
 
-Training the Algorithm
+### Training the Algorithm
 We have split our data into training and testing sets, and now is finally the time to train our algorithm. Execute following command:
 
 from sklearn.linear_model import LinearRegression
 regressor = LinearRegression()
 regressor.fit(X_train, y_train)
+
 With Scikit-Learn it is extremely straight forward to implement linear regression models, as all you really need to do is import the LinearRegression class, instantiate it, and call the fit() method along with our training data. This is about as simple as it gets when using a machine learning library to train on your data.
 
 In the theory section we said that linear regression model basically finds the best value for the intercept and slope, which results in a line that best fits the data. To see the value of the intercept and slop calculated by the linear regression algorithm for our dataset, execute the following code.
@@ -247,7 +248,7 @@ The result should be approximately 9.91065648.
 
 This means that for every one unit of change in hours studied, the change in the score is about 9.91%. Or in simpler words, if a student studies one hour more than they previously studied for an exam, they can expect to achieve an increase of 9.91% in the score achieved by the student previously.
 
-###Making Predictions
+#### Making Predictions
 Now that we have trained our algorithm, it's time to make some predictions. To do so, we will use our test data and see how accurately our algorithm predicts the percentage score. To make pre-dictions on the test data, execute the following script:
 
 y_pred = regressor.predict(X_test)
@@ -262,7 +263,7 @@ df
 
 The output looks like this:
 
-###FIGURE
+#### FIGURE
 
 Though our model is not very precise, the predicted percentages are close to the actual ones.
 
@@ -270,7 +271,7 @@ Note:
 
 The values in the columns above may be different in your case because the train_test_split function randomly splits data into train and test sets, and your splits are likely different from the one shown in this article.
 
-###Evaluating the Algorithm
+#### Evaluating the Algorithm
 
 The final step is to evaluate the performance of algorithm. This step is particularly important to compare how well different algorithms perform on a particular dataset. For regression algorithms, three evaluation metrics are commonly used:
 
