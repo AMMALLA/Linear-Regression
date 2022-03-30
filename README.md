@@ -355,7 +355,9 @@ Let's find the values for these metrics using our test data. Execute the followi
 The output will look similar to this (but probably slightly different):
 
 Mean Absolute Error: 4.183859899
+
 Mean Squared Error: 21.5987693072
+
 Root Mean Squared Error: 4.6474476121
 
 You can see that the value of root mean squared error is 4.64, which is less than 10% of the mean value of the percentages of all the students i.e. 51.48. This means that our algorithm did a decent job.
