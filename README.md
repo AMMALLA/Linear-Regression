@@ -73,8 +73,7 @@ A regression line can be a Positive Linear Relationship or a Negative Linear Rel
 If the dependent variable expands on the Y-axis and the independent variable progress on X-axis, then such a relationship is termed a Positive linear relationship.
 
 ![image](https://editor.analyticsvidhya.com/uploads/11467linear2.png)
-* Linear Regression positive
-* Negative Linear Relationship
+
 
 If the dependent variable decreases on the Y-axis and the independent variable increases on the X-axis, such a relationship is called a negative linear relationship.
 
