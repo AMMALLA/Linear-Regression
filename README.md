@@ -46,10 +46,9 @@ Linear Regression 1
 The above graph presents the linear relationship between the dependent variable and independent variables. When the value of x (independent variable) increases, the value of y (dependent variable) is likewise increasing. The red line is referred to as the best fit straight line. Based on the given data points, we try to plot a line that models the points the best.
 To calculate best-fit line linear regression uses a traditional slope-intercept form.
 
-![image](https://editor.analyticsvidhya.com/uploads/32826linear1.png)
-
 #### Linear Regression equation
 
+ ![image](https://editor.analyticsvidhya.com/uploads/32826linear1.png)
 y= Dependent Variable.
 
 x= Independent Variable.
@@ -72,12 +71,16 @@ A regression line can be a Positive Linear Relationship or a Negative Linear Rel
 
 If the dependent variable expands on the Y-axis and the independent variable progress on X-axis, then such a relationship is termed a Positive linear relationship.
 
+![image](https://editor.analyticsvidhya.com/uploads/11467linear2.png)
 * Linear Regression positive
 * Negative Linear Relationship
 
 If the dependent variable decreases on the Y-axis and the independent variable increases on the X-axis, such a relationship is called a negative linear relationship.
 
 #### Linear Regression negative
+
+![image](https://editor.analyticsvidhya.com/uploads/35247linear3.png)
+
 The goal of the linear regression algorithm is to get the best values for a0 and a1 to find the best fit line. The best fit line should have the least error means the error between predicted values and actual values should be minimized.
 
 ### Cost function
@@ -89,6 +92,8 @@ In Linear Regression, Mean Squared Error (MSE) cost function is used, which is t
 
 By simple linear equation y=mx+b we can calculate MSE as:
 
+![image](https://editor.analyticsvidhya.com/uploads/59553mse.png)
+
 Let’s y = actual values, yi = predicted values
 
 ### Linear Regression MSE
@@ -97,8 +102,12 @@ Using the MSE function, we will change the values of a0 and a1 such that the MSE
 ### Gradient descent 
 Gradient descent is a method of updating a0 and a1 to minimize the cost function (MSE). A regression model uses gradient descent to update the coefficients of the line (a0, a1 => xi, b) by reducing the cost function by a random selection of coefficient values and then iteratively update the values to reach the minimum cost function.
 
+![image](https://editor.analyticsvidhya.com/uploads/68835linear4.png)
+
 ### Linear Regression gradient Descent
 Imagine a pit in the shape of U. You are standing at the topmost point in the pit, and your objective is to reach the bottom of the pit. There is a treasure, and you can only take a discrete number of steps to reach the bottom. If you decide to take one footstep at a time, you would eventually get to the bottom of the pit but, this would take a longer time. If you choose to take longer steps each time, you may get to sooner but, there is a chance that you could overshoot the bottom of the pit and not near the bottom. In the gradient descent algorithm, the number of steps you take is the learning rate, and this decides how fast the algorithm converges to the minima.
+
+![image](https://editor.analyticsvidhya.com/uploads/97695learn.png)
 
 ### Learning Rate
 To update a0 and a1, we take gradients from the cost function. To find these gradients, we take partial derivatives for a0 and a1.
