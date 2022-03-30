@@ -218,7 +218,7 @@ The above method retrieves the first 5 records from our dataset, which will look
 
 ##### dataset.describe()
 
-## FIGURE
+![fig1](https://user-images.githubusercontent.com/4158204/160814627-96ab0b1f-28c4-47b6-a9ba-aa8a20dd282f.JPG)
 
 And finally, let's plot our data points on 2-D graph to eyeball our dataset and see if we can manually find any relationship between the data. We can create the plot with the following script:
 
