@@ -133,11 +133,6 @@ To update a0 and a1, we take gradients from the cost function. To find these gra
 ![image](https://editor.analyticsvidhya.com/uploads/47189final_dev2.png)
 ![image](https://editor.analyticsvidhya.com/uploads/18613final_dev3.png)
 
-Partial derivatives Linear Regression
-
-linear regression cost function 2
-
-linear regression cost function 3
 
 The partial derivates are the gradients, and they are used to update the values of a0 and a1. Alpha is the learning rate.
 
