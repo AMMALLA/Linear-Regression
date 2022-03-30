@@ -141,7 +141,7 @@ linear regression cost function 3
 
 The partial derivates are the gradients, and they are used to update the values of a0 and a1. Alpha is the learning rate.
 
-Impact of different values for learning rate
+## Impact of different values for learning rate
 
 ![image](https://editor.analyticsvidhya.com/uploads/71216Learn_rate.png)
 Source : mygreatleaning.com
