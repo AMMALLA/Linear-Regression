@@ -102,7 +102,8 @@ Let’s y = actual values, yi = predicted values
 ### Linear Regression MSE
 Using the MSE function, we will change the values of a0 and a1 such that the MSE value settles at the minima. Model parameters xi, b (a0,a1) can be manipulated to minimize the cost function. These parameters can be determined using the gradient descent method so that the cost function value is minimum.
 
-### Gradient descent 
+## Gradient descent 
+
 
 
 Gradient descent is a method of updating a0 and a1 to minimize the cost function (MSE). A regression model uses gradient descent to update the coefficients of the line (a0, a1 => xi, b) by reducing the cost function by a random selection of coefficient values and then iteratively update the values to reach the minimum cost function.
@@ -149,7 +150,8 @@ The main function to calculate values of coefficients
 6 Update the values of a0 and a1.
 
 
-### Implementation of Linear Regression Using Python code
+## Implementation of Linear Regression Using Python code
+
 
 
 
@@ -216,7 +218,12 @@ The resulting plot will look like this:
 
 From the graph above, we can clearly see that there is a positive linear relation between the number of hours studied and percentage of score.
 
+
+
 #### Preparing the Data
+
+
+
 Now we have an idea about statistical details of our data. The next step is to divide the data into "attributes" and "labels". Attributes are the independent variables while labels are dependent variables whose values are to be predicted. In our dataset we only have two columns. We want to predict the percentage score depending upon the hours studied. Therefore our attribute set will consist of the "Hours" column, and the label will be the "Score" column. To extract the attributes and labels, execute the following script:
 
 X = dataset.iloc[:, :-1].values
@@ -233,6 +240,9 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_
 The above script splits 80% of the data to training set while 20% of the data to test set. The test_size variable is where we actually specify the proportion of test set.
 
 ### Training the Algorithm
+
+
+
 We have split our data into training and testing sets, and now is finally the time to train our algorithm. Execute following command:
 
 from sklearn.linear_model import LinearRegression
