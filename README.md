@@ -185,7 +185,7 @@ To import necessary libraries for this task, execute the following import statem
 ###### import matplotlib.pyplot as plt
 ###### %matplotlib inline
 
-##### Dataset
+#### Dataset
 
 The dataset being used for this example has been made publicly available and can be downloaded from this link:
 
@@ -289,7 +289,7 @@ The result should be approximately 9.91065648.
 This means that for every one unit of change in hours studied, the change in the score is about 9.91%. Or in simpler words, if a student studies one hour more than they previously studied for an exam, they can expect to achieve an increase of 9.91% in the score achieved by the student previously.
 
 
-#### Making Predictions
+## Making Predictions
 
 
 
@@ -319,7 +319,7 @@ The values in the columns above may be different in your case because the train_
 
 
 
-#### Evaluating the Algorithm
+## Evaluating the Algorithm
 
 
 
