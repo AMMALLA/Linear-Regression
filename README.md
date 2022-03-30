@@ -102,6 +102,9 @@ Let’s y = actual values, yi = predicted values
 ### Linear Regression MSE
 Using the MSE function, we will change the values of a0 and a1 such that the MSE value settles at the minima. Model parameters xi, b (a0,a1) can be manipulated to minimize the cost function. These parameters can be determined using the gradient descent method so that the cost function value is minimum.
 
+
+
+
 ## Gradient descent 
 
 
@@ -116,6 +119,11 @@ Imagine a pit in the shape of U. You are standing at the topmost point in the pi
 ![image](https://editor.analyticsvidhya.com/uploads/97695learn.png)
 
 ### Learning Rate
+
+
+
+
+
 To update a0 and a1, we take gradients from the cost function. To find these gradients, we take partial derivatives for a0 and a1.
 
 ![image](https://editor.analyticsvidhya.com/uploads/43974final_dev1.png)
@@ -151,6 +159,10 @@ The main function to calculate values of coefficients
 5 Calculate the cost for each number and add them.
 
 6 Update the values of a0 and a1.
+
+
+
+
 
 
 ## Implementation of Linear Regression Using Python code
@@ -230,6 +242,7 @@ From the graph above, we can clearly see that there is a positive linear relatio
 Now we have an idea about statistical details of our data. The next step is to divide the data into "attributes" and "labels". Attributes are the independent variables while labels are dependent variables whose values are to be predicted. In our dataset we only have two columns. We want to predict the percentage score depending upon the hours studied. Therefore our attribute set will consist of the "Hours" column, and the label will be the "Score" column. To extract the attributes and labels, execute the following script:
 
 X = dataset.iloc[:, :-1].values
+
 y = dataset.iloc[:, 1].values
 
 The attributes are stored in the X variable. We specified "-1" as the range for columns since we wanted our attribute set to contain all the columns except the last one, which is "Scores". Similarly the y variable contains the labels. We specified 1 for the label column since the index for "Scores" column is 1. Remember, the column indexes start with 0, with 1 being the second column. In the next section, we will see a better way to specify columns for attributes and labels.
@@ -273,7 +286,12 @@ The result should be approximately 9.91065648.
 
 This means that for every one unit of change in hours studied, the change in the score is about 9.91%. Or in simpler words, if a student studies one hour more than they previously studied for an exam, they can expect to achieve an increase of 9.91% in the score achieved by the student previously.
 
+
 #### Making Predictions
+
+
+
+
 Now that we have trained our algorithm, it's time to make some predictions. To do so, we will use our test data and see how accurately our algorithm predicts the percentage score. To make pre-dictions on the test data, execute the following script:
 
 y_pred = regressor.predict(X_test)
@@ -296,7 +314,13 @@ Note:
 
 The values in the columns above may be different in your case because the train_test_split function randomly splits data into train and test sets, and your splits are likely different from the one shown in this article.
 
+
+
+
 #### Evaluating the Algorithm
+
+
+
 
 The final step is to evaluate the performance of algorithm. This step is particularly important to compare how well different algorithms perform on a particular dataset. For regression algorithms, three evaluation metrics are commonly used:
 
