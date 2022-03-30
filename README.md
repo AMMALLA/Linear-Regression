@@ -164,6 +164,13 @@ The main function to calculate values of coefficients
 6 Update the values of a0 and a1.
 
 
+
+##
+## Normal Equation as an analytical solution to the linear regression problem
+
+
+
+
 Andrew Ng presented the Normal Equation as an analytical solution to the linear regression problem with a least-squares cost function. He mentioned that in some cases (such as for small feature sets) using it is more effective than applying gradient descent; unfortunately, he left its derivation out.
 
 Here I want to show how the normal equation is derived.
