@@ -159,12 +159,12 @@ In this regression task we will predict the percentage of marks that a student i
 To import necessary libraries for this task, execute the following import statements:
 
 
-##### import pandas as pd
-##### import numpy as np
-##### import matplotlib.pyplot as plt
-##### %matplotlib inline
+###### import pandas as pd
+###### import numpy as np
+###### import matplotlib.pyplot as plt
+###### %matplotlib inline
 
-#### Dataset
+##### Dataset
 
 The dataset being used for this example has been made publicly available and can be downloaded from this link:
 
@@ -174,17 +174,17 @@ Note: This example was executed on a Windows based machine and the dataset was s
 
 The following command imports the CSV dataset using pandas:
 
-##### dataset = pd.read_csv('D:\Datasets\student_scores.csv')
+###### dataset = pd.read_csv('D:\Datasets\student_scores.csv')
 
 
 Now let's explore our dataset a bit. To do so, execute the following script:
 
-##### dataset.shape
+###### dataset.shape
 
 
 After doing this, you should see the following printed out:
 
-##### (25, 2)
+###### (25, 2)
 
 This means that our dataset has 25 rows and 2 columns. Let's take a look at what our dataset actually looks like. To do this, use the head() method:
 
