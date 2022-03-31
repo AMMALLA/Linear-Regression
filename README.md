@@ -11,6 +11,7 @@ Regression is a supervised learning technique that supports finding the correlat
  In this article, we will understand the following concepts:
 
 ##### What is a Regression?
+
 ##### Types of a Regression.
 
 ##### What  Linear regression means and the importance of Linear regression?
