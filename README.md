@@ -234,6 +234,7 @@ Which is the normal equation.
 
 
 
+
 ##
 
 
@@ -404,6 +405,9 @@ The final step is to evaluate the performance of algorithm. This step is particu
 
 
 ![image](https://s3.amazonaws.com/stackabuse/media/linear-regression-python-scikit-learn-3.png)
+
+
+
 
 
 
