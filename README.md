@@ -151,7 +151,7 @@ The partial derivates are the gradients, and they are used to update the values 
 ## Impact of different values for learning rate
 
 ![image](https://editor.analyticsvidhya.com/uploads/71216Learn_rate.png)
-Source : mygreatleaning.com
+Source : mygreatlearning.com
 
 
 The blue line represents the optimal value of the learning rate, and the cost function value is minimized in a few iterations. The green line represents if the learning rate is lower than the optimal value, then the number of iterations required high to minimize the cost function. If the learning rate selected is very high, the cost function could continue to increase with iterations and saturate at a value higher than the minimum value, that represented by a red and black line.
