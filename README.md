@@ -234,7 +234,6 @@ Which is the normal equation.
 ## Conclusive Handwritten Rough Notes on Linear Rregression Maths
 ##
 Below is the link for handwritten Rough Notes
-
 https://drive.google.com/drive/folders/1vICEex1U3yhxY5Ci7BRw-boZYx0Ccf0j
 
 ##
