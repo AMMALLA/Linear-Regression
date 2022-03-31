@@ -231,7 +231,7 @@ Now, assuming that the matrix X^TX is invertible, we can multiply both sides by 
 Which is the normal equation.
 
 ##
-## Conclusive Handwritten Rough Notes on Linear Rregression Maths
+## Conclusive Handwritten Rough Notes on Linear Regression Maths
 ##
 Below is the link for handwritten Rough Notes
 https://drive.google.com/drive/folders/1vICEex1U3yhxY5Ci7BRw-boZYx0Ccf0j
