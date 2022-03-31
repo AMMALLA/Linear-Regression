@@ -12,7 +12,7 @@ Regression is a supervised learning technique that supports finding the correlat
 
 ##### What is a Regression?
 
-###### Types of a Regression.
+##### Types of a Regression.
 
 ##### What is the mean of Linear regression and the importance of Linear regression?
 
@@ -20,7 +20,9 @@ Regression is a supervised learning technique that supports finding the correlat
 
 ##### Impact of different values for learning rate.
 
-##### Normal Equation as an analytical solution to the linear regression problem
+##### Normal Equation as an analytical solution to the linear regression problem.
+
+##### Conclusive Handwritten Rough Notes on Linear Rregression
 
  ##### Implement use case of Linear regression with python code.
  
@@ -31,14 +33,20 @@ In Regression, we plot a graph between the variables which best fit the given da
 
  
 
-## Types of Regression models
+### Types of Regression models
 
- * Linear Regression
+ * Simple Linear Regression
+ * Multiple Linear Regression
  * Polynomial Regression
  * Logistics Regression
+ * Ridge Regression
+ * Lasso Regression
+ * Bayesian Linear Regression
+ * Decision Tree Regression
+ * Random Forest
  
 
-### Linear Regression
+### Simple Linear Regression
 Linear regression is a quiet and simple statistical regression method used for predictive analysis and shows the relationship between the continuous variables. Linear regression shows the linear relationship between the independent variable (X-axis) and the dependent variable (Y-axis), consequently called linear regression. If there is a single input variable (x), such linear regression is called simple linear regression. And if there is more than one input variable, such linear regression is called multiple linear regression. The linear regression model gives a sloped straight line describing the relationship within the variables.
 
 ![image](https://editor.analyticsvidhya.com/uploads/72060linear.png)
@@ -59,6 +67,7 @@ x= Independent Variable.
 a0= intercept of the line.
 
 a1 = Linear regression coefficient.
+
 
 #### Need of a Linear regression
 
