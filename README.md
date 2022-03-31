@@ -235,7 +235,7 @@ Which is the normal equation.
 ##
 Below is the link for handwritten Rough Notes
 
-https://drive.google.com/drive/computers
+https://drive.google.com/drive/folders/1vICEex1U3yhxY5Ci7BRw-boZYx0Ccf0j
 
 ##
 
