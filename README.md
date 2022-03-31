@@ -36,18 +36,18 @@ In Regression, we plot a graph between the variables which best fit the given da
 ### Types of Regression models
 There are various different types of regression models to create predictions. These techniques are mostly driven by three prime attributes: one the number of independent variables, second the type of dependent variables, and lastly the shape of the regression line.
 
-                     ![image](https://user-images.githubusercontent.com/4158204/160962962-c59c4c23-e688-4a82-b116-fbd7822ede30.png)
+ ![image](https://user-images.githubusercontent.com/4158204/160962962-c59c4c23-e688-4a82-b116-fbd7822ede30.png)
 
  * Simple Linear Regression
- * Multiple Linear Regression
- * Polynomial Regression
+ * Multiple Linear Regression (*more than one independent variable)
+ * Polynomial Regression  (*power of the independent variable is more than 1)
  * Logistics Regression
  * Ridge Regression
  * Lasso Regression
  * Bayesian Linear Regression
  * Decision Tree Regression
  * Random Forest
- 
+  In this post we will describe Simple Linear Regression Model only
 
 ### Simple Linear Regression
 Linear regression is a quiet and simple statistical regression method used for predictive analysis and shows the relationship between the continuous variables. Linear regression shows the linear relationship between the independent variable (X-axis) and the dependent variable (Y-axis), consequently called linear regression. If there is a single input variable (x), such linear regression is called simple linear regression. And if there is more than one input variable, such linear regression is called multiple linear regression. The linear regression model gives a sloped straight line describing the relationship within the variables.
