@@ -46,6 +46,7 @@ There are various different types of regression models to create predictions. Th
  * Bayesian Linear Regression
  * Decision Tree Regression
  * Random Forest
+ 
   In this post we will describe Simple Linear Regression Model only
 
 ### Simple Linear Regression
