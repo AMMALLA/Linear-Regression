@@ -37,7 +37,7 @@ In Regression, we plot a graph between the variables which best fit the given da
 There are various different types of regression models to create predictions. These techniques are mostly driven by three prime attributes: one the number of independent variables, second the type of dependent variables, and lastly the shape of the regression line.
 
  ![regression](https://user-images.githubusercontent.com/4158204/160963884-b9acb9c5-902a-4e8a-accd-7671df68810f.JPG)
-                          Primary Attributes of Regression Algorithm
+                   Primary Attributes of Regression Algorithm
  * Simple Linear Regression
  * Multiple Linear Regression (*more than one independent variable)
  * Polynomial Regression  (*power of the independent variable is more than 1)
