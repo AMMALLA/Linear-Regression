@@ -34,6 +34,9 @@ In Regression, we plot a graph between the variables which best fit the given da
  
 
 ### Types of Regression models
+There are various different types of regression models to create predictions. These techniques are mostly driven by three prime attributes: one the number of independent variables, second the type of dependent variables, and lastly the shape of the regression line.
+
+                     ![image](https://user-images.githubusercontent.com/4158204/160962962-c59c4c23-e688-4a82-b116-fbd7822ede30.png)
 
  * Simple Linear Regression
  * Multiple Linear Regression
